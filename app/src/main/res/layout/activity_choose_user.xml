@@ -16,7 +16,7 @@ android:background="@color/colorPrimary">
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.575"
+            app:layout_constraintVertical_bias="0.346"
     />
     <Button
             android:text="Traineer"
@@ -28,7 +28,7 @@ android:background="@color/colorPrimary">
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintHorizontal_bias="0.0" app:layout_constraintVertical_bias="0.686"/>
+            app:layout_constraintHorizontal_bias="0.0" app:layout_constraintVertical_bias="0.475"/>
     <TextView
             android:text="Who are you?"
             android:layout_width="match_parent"
@@ -41,6 +41,28 @@ android:background="@color/colorPrimary">
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.36"
+            app:layout_constraintVertical_bias="0.187"
     />
+    <Button
+            android:text="All Users"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_shape_round"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.0" app:layout_constraintVertical_bias="0.771"
+            android:id="@+id/btn6"/>
+    <Button
+            android:text="Main Activity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_shape_round"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.0" app:layout_constraintVertical_bias="0.645"
+            android:id="@+id/main"/>
 </android.support.constraint.ConstraintLayout>

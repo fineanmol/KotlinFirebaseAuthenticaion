@@ -14,13 +14,26 @@ class ChooseUser : AppCompatActivity() {
         setContentView(R.layout.activity_choose_user)
         var UserBtn = findViewById(R.id.userbtn) as Button
         var Partnerbtn = findViewById(R.id.partnerbtn) as Button
+
+        var AllUsersbtn = findViewById(R.id.btn6) as Button
+        var mainActivitybtn = findViewById<Button>(R.id.main)
+
+
         UserBtn.setOnClickListener {
-            var userintent = Intent(this,UserLogin::class.java)
+            var userintent = Intent(this, UserLogin::class.java)
             startActivity(userintent)
         }
         Partnerbtn.setOnClickListener {
-            var partnerIntent = Intent(this,PartnerLogin::class.java)
+            var partnerIntent = Intent(this, PartnerLogin::class.java)
             startActivity((partnerIntent))
+        }
+        AllUsersbtn.setOnClickListener {
+            val Intent = Intent(this, AllUserList::class.java)
+            startActivity(Intent)
+        }
+        mainActivitybtn.setOnClickListener {
+            val Intent = Intent(this, MainActivity::class.java)
+            startActivity(Intent)
         }
 
     }
