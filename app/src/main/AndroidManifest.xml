@@ -12,6 +12,8 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
         <activity android:name=".AllUserList">
+
+
         </activity>
 
         <activity
@@ -37,6 +39,7 @@
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
+
         </activity>
     </application>
 

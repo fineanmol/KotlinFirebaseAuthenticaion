@@ -32,6 +32,7 @@ class MainActivity : AppCompatActivity() {
             AuthUI.IdpConfig.EmailBuilder().build(), //Email Login
             AuthUI.IdpConfig.FacebookBuilder().build(), //Facebook Login
             AuthUI.IdpConfig.GoogleBuilder().build(), //Google Login
+            AuthUI.IdpConfig.AnonymousBuilder().build(), //Anonymous Login
             AuthUI.IdpConfig.PhoneBuilder().build() //Phone Login
         )
         showSignInOptions()
